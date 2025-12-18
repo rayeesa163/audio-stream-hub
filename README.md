@@ -70,7 +70,7 @@ The app uses **HTML5’s Audio API** combined with React state management to con
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/audio-stream-hub.git
+   git clone https://github.com/rayeesa163/audio-stream-hub.git
    ```
 
 2. **Install dependencies**
