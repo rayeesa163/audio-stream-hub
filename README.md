@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🎧 Audio Stream Hub
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A modern **web-based audio streaming platform** that enables users to play, browse, and manage audio tracks in a seamless, responsive interface. Built with performance, user experience, and scalability in mind.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Live Demo
 
-**Use Lovable**
+🔗 [https://audio-stream-hub.vercel.app/](https://audio-stream-hub.vercel.app/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Features
 
-**Use your preferred IDE**
+✅ Clean, intuitive UI for audio browsing
+✅ Play, pause, skip, and seek functionality
+✅ Responsive design (works on mobile & desktop)
+✅ Support for playlists and audio lists
+✅ Real-time audio control
+✅ Fast loading & optimized performance with Vercel hosting
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+| Layer        | Technology                    |
+| ------------ | ----------------------------- |
+| Frontend     | React / Next.js               |
+| Styling      | Tailwind CSS / CSS Modules    |
+| Hosting      | Vercel                        |
+| Audio Player | HTML5 Audio API               |
+| Deployment   | Continuous Vercel Integration |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+audio-stream-hub/
+├─ public/
+│   └─ assets/           # Images & static audio files
+├─ src/
+│   ├─ components/       # UI components (Player, TrackList, Controls)
+│   ├─ pages/            # App pages (Home, Tracks, Player)
+│   ├─ styles/           # Global & page-specific styles
+│   └─ utils/            # Helper functions
+├─ .gitignore
+├─ next.config.js
+├─ package.json
+└─ README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧩 How It Works
 
-**Use GitHub Codespaces**
+The app uses **HTML5’s Audio API** combined with React state management to control audio playback. Users can:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Play / Pause tracks
+* Skip forward or backward
+* View the current track metadata
+* Use a dynamic audio progress bar
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ⚙️ Installation (Local)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **Clone the repository**
 
-## How can I deploy this project?
+   ```bash
+   git clone https://github.com/<your-username>/audio-stream-hub.git
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+2. **Install dependencies**
 
-## Can I connect a custom domain to my Lovable project?
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-Yes, you can!
+3. **Start Development Server**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+4. **Open in browser**
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🧩 Usage
+
+Once deployed or running locally:
+
+1️⃣ Browse audio tracks
+2️⃣ Click a song to start playback
+3️⃣ Use controls to pause, skip, or seek
+4️⃣ Enjoy seamless streaming
+
+---
+ 💡 Future Improvements
+
+✨ Add user authentication
+✨ Upload & manage personal audio files
+✨ Playlist creation & sharing
+✨ Dark / Light mode toggle
+✨ Backend API for dynamic content
+
+
+
